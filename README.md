@@ -13,3 +13,4 @@ Este material apresenta um resumo orientado à codificação em JavaScript, base
 8. [Manipulação de Erros](https://github.com/cristiancmello/eloquent-js/blob/master/manipulacao_de_erros.md);
 9. [Módulos](https://github.com/cristiancmello/eloquent-js/blob/master/modulos.md);
 10. [HTTP](https://github.com/cristiancmello/eloquent-js/blob/master/http.md);
+11. [Node.js](https://github.com/cristiancmello/eloquent-js/blob/master/nodejs.md);
