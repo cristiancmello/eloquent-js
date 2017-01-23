@@ -5,8 +5,8 @@
 não possui qualquer relação. Mesmo assim, é possível fazer pedidos e envio de conteúdo em XML.
 
 **IMPORTANTE**: caso esteja trabalhando com o **Node.js**, será preciso seguir os passos abaixo para poder
-fazer requisições. Sugiro um pacote do NPM chamado **xmlhttprequest**. *Se estiver trabalhando com o **browser**,
-**não será preciso utilizar pacote extra***.
+fazer requisições. Sugiro um pacote do NPM chamado **xmlhttprequest**. Se estiver trabalhando com o **browser**,
+**não será preciso utilizar pacote extra**.
 
 ### Uso do `xmlhttprequest` com Node.js
 #### Instalação do `xmlhttprequest`
