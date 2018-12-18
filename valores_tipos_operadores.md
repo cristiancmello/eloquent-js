@@ -1,32 +1,56 @@
 # Valores, Tipos e Operadores
 
 ## Valores
+
 O JS possui *6* tipos de valores:
-- *number*
-- *string*
-- *boolean*
-- *object*
-- *function*
-- *undefined*
+
+- *Number*
+- *String*
+- *Boolean*
+- *Object*
+  - *Function*
+  - *Array*
+  - *Date*
+  - *Regexp*
+- *Undefined*
+- *Null*
 
 > *Para criar um valor, é apenas necessário invocar um nome*
+> Quase tudo em JS é um objeto.
 
-### Números
-O JS determina que cada *number* possua comprimento de *64 bits*.
+### Number
 
-- Com *number*, podemos representar até *18 quintilhões*;
+O JS determina que cada *number* possua comprimento de *64 bits* caso valor seja de ponto-flutuante (real).
+
+- Para real, segue o padrão IEEE 754;
+- Com *number* sendo inteiro, é tratado em 32 bits;
+- Com *number*, podemos representar até *18 quintilhões* (real);
 - Com *number* sendo *real*, podemos representar o valor máximo de *9 quadrilhões*;
 - Notação científica: *2.998e8* = *2.998 * 10^8*;
 - *IMPORTANTE*: números fracionários serão sempre aproximações.
 
+#### Caso notável com uso da Adição
+
+* A expressão `0.1 + 0.2 = 0.30000000000000004`. Não espere que JS se comporte como em outras linguagens.
+
 ### Aritmética
+
 - Vale a precedência matemática (1ª multiplicação, ...);
 
 ### Números Especiais
+
 O JS traz *3* valores consideradores números, mas não se comportam como tal.
 
 - *Infinity* e *-Infinity*: infinito positivo e negativo. *Infinity - 1* continua sendo infinito;
 - *NaN* (*Not a Number*): obtém-se quando se declara *0 / 8* ou *Infinity - Infinity*;
+
+### Coersão com uso de `+`
+
+* `+"12" = 12`
+
+### Função `isFinite()`
+
+* Garante testar algo que não seja `Infinity` ou `-Inifinity` ou `NaN`. 
 
 ### Strings
 - JS aceita tanto *''* quanto *""*;
